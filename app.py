@@ -8,7 +8,7 @@ from PIL import Image
 from torchvision import transforms
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "MNIST_CNN_PYTORCH.pth"
+MODEL_PATH = BASE_DIR / "mnist_cnn_pytorch_final.pth"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
